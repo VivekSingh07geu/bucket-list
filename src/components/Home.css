@@ -1,0 +1,74 @@
+.container-home{
+    background-color: #e8e8e8;
+    height: 100vh;
+}
+.header{
+    background-color: rgb(46, 189, 237);
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.edit-icon{
+    cursor: pointer;
+    padding-right: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left {
+    display: flex;
+}
+
+.left > div {
+    margin-right: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bucket-list-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-home {
+    box-sizing: border-box;
+    width: 50%;
+    height: 200px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    font-weight:lighter;
+    font-size: 35px;
+    margin-bottom: 2%;
+}
+
+.card-home:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.card-div {
+    background-color: red;
+}

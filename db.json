@@ -1,0 +1,38 @@
+{
+  "buckets": [
+    {
+      "title": "Edu Videos",
+      "cards": [
+        {
+          "_id": 3,
+          "name": "Temp1",
+          "link": "https://www.youtube.com/embed/v64KOxKVLVg"
+        },
+        {
+          "name": "Temp2",
+          "link": "https://www.youtube.com/embed/v64KOxKVLVg",
+          "_id": 1680001952319
+        },
+        {
+          "name": "Temp3",
+          "link": "https://www.youtube.com/embed/v64KOxKVLVg",
+          "_id": 168000143434952320
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "Hellooooo99",
+      "cards": [],
+      "id": 2
+    }
+  ],
+  "history": [
+    {
+      "id": 3,
+      "name": "Temp1",
+      "link": "https://www.youtube.com/embed/v64KOxKVLVg",
+      "time": "3/28/2023, 11:59:29 PM"
+    }
+  ]
+}
