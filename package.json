@@ -27,7 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "json-server --watch db.json --port 5000"
   },
   "eslintConfig": {
     "extends": [
