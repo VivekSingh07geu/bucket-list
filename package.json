@@ -1,5 +1,6 @@
 {
   "name": "bucket-list",
+  "main": "server.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js",
-    "server": "json-server --watch db.json --port 5000"
+    "start": "node server.js"
   },
   "eslintConfig": {
     "extends": [
